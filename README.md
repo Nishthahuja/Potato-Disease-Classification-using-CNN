@@ -22,7 +22,19 @@ The dataset used in this project contains images of potato leaves categorized in
 - Late Blight
 - Healthy
 
-The dataset can be downloaded from Kaggle.
+The dataset consists of 2152 images and is organized in a directory structure suitable for image classification tasks. The dataset can be downloaded from Kaggle.
+
+## Model Architecture
+
+The model is a Convolutional Neural Network (CNN) built using TensorFlow and Keras. The architecture includes:
+- Resizing and rescaling layers
+- Data augmentation layers
+- Multiple convolutional and max-pooling layers
+- Flatten and dense layers
+
+
+
+
 
 
 
