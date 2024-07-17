@@ -10,3 +10,10 @@ In this project Convolutional Neural Network (CNN) is used to classify potato di
 - [Results](#results)
 - [Dependencies](#dependencies)
 - [License](#license)
+
+## Introduction
+
+Potatoes are one of the most important food crops but its production is often hindered by various diseases. Accurate detection of these diseases can significantly help in managing and controlling their spread. This project uses a CNN to analyze images of potato crops and predict presence of specific disease.
+
+## Dataset
+
