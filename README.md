@@ -7,7 +7,6 @@ In this project Convolutional Neural Network (CNN) is used to classify potato di
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Usage](#usage)
-- [Results](#results)
 - [Dependencies](#dependencies)
 - [License](#license)
 
@@ -31,6 +30,29 @@ The model is a Convolutional Neural Network (CNN) built using TensorFlow and Ker
 - Data augmentation layers
 - Multiple convolutional and max-pooling layers
 - Flatten and dense layers
+
+## Usage
+
+1.  **Dataset Preparation**
+  - Organize your dataset into training and test sets, containing images of healthy and diseased potato plants.
+2.  **Model Training**
+  - Use the provided script potato_disease_prediction.py to train the model.
+  - Load and preprocesses the dataset, applies data augmentation techniques, defines and compiles the CNN model and trains the model.
+  - Adjust hyperparameters as needed (e.g., number of epochs, batch size).
+3.  **Evaluation**
+  - The script outputs training and validation accuracy and loss plots, which indicate the model's performance over epochs.
+
+## Dependencies
+- TensorFlow
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- OpenCV
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 
 
