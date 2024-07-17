@@ -17,3 +17,13 @@ Potatoes are one of the most important food crops but its production is often hi
 
 ## Dataset
 
+The dataset used in this project contains images of potato leaves categorized into the following classes:
+- Early Blight
+- Late Blight
+- Healthy
+
+The dataset can be downloaded from Kaggle.
+
+
+
+
